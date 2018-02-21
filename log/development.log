@@ -5009,3 +5009,814 @@ Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-12-11 21:50:16 +0100
 GossipChannel stopped streaming from gossip_channel
 Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-12-11 21:50:16 +0100
 GossipChannel stopped streaming from gossip_channel
+Started GET "/" for 127.0.0.1 at 2018-02-21 16:17:13 +0300
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 1980ms (Views: 1965.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:17:16 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:17:17 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"What up Dog", "name"=>"Andrew"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"What up Dog", :name=>"Andrew"}
+GossipChannel transmitting {"message"=>"What up Dog", "name"=>"Andrew"} (via streamed from gossip_channel)
+Started GET "/" for 127.0.0.1 at 2018-02-21 16:17:45 +0300
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 92ms (Views: 90.6ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:17:52 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:17:52 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Im I alone in this bitch?", "name"=>"Andrew"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Im I alone in this bitch?", :name=>"Andrew"}
+GossipChannel transmitting {"message"=>"Im I alone in this bitch?", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Im I alone in this bitch?", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Yooo I'm you ma nigger", "name"=>"Mwangi"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Yooo I'm you ma nigger", :name=>"Mwangi"}
+GossipChannel transmitting {"message"=>"Yooo I'm you ma nigger", "name"=>"Mwangi"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Yooo I'm you ma nigger", "name"=>"Mwangi"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Crazy Dog", "name"=>"Mwangi"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Crazy Dog", :name=>"Mwangi"}
+GossipChannel transmitting {"message"=>"Crazy Dog", "name"=>"Mwangi"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Crazy Dog", "name"=>"Mwangi"} (via streamed from gossip_channel)
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:27:02 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:27:02 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:27:06 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:27:06 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:27:06 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/" for 127.0.0.1 at 2018-02-21 16:27:06 +0300
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 697ms (Views: 676.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:27:07 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:27:07 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:27:08 +0300
+GossipChannel stopped streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Speak to me master", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Speak to me master", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Speak to me master", "name"=>"anonymous"} (via streamed from gossip_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:29:07 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:29:12 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:29:12 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/" for 197.248.111.202 at 2018-02-21 16:30:22 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 46.8ms)
+
+
+Started GET "/" for 197.248.111.202 at 2018-02-21 16:30:43 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 46.8ms)
+
+
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:30:52 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:30:52 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Reveal your identity", "name"=>"Andrew"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Reveal your identity", :name=>"Andrew"}
+GossipChannel transmitting {"message"=>"Reveal your identity", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Reveal your identity", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"I is who i is", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"I is who i is", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"I is who i is", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"I is who i is", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Teach me of this gossip protocol oh great wizard", "name"=>"Andrew"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Teach me of this gossip protocol oh great wizard", :name=>"Andrew"}
+GossipChannel transmitting {"message"=>"Teach me of this gossip protocol oh great wizard", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Teach me of this gossip protocol oh great wizard", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"I am not just but a great wizard, I am the only of my kind. Brought myself into existance, on my own terms", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"I am not just but a great wizard, I am the only of my kind. Brought myself into existance, on my own terms", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"I am not just but a great wizard, I am the only of my kind. Brought myself into existance, on my own terms", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"I am not just but a great wizard, I am the only of my kind. Brought myself into existance, on my own terms", "name"=>"anonymous"} (via streamed from gossip_channel)
+Started GET "/" for 197.248.111.202 at 2018-02-21 16:35:06 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 80.4ms)
+
+
+Finished "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:35:10 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:35:16 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:35:16 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Finished "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:35:32 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:35:42 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:35:42 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/" for 197.248.111.202 at 2018-02-21 16:36:34 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 40.7ms)
+
+
+GossipChannel#send_message({"message"=>"How much information do you wish I take from your phone", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"How much information do you wish I take from your phone", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"How much information do you wish I take from your phone", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"How much information do you wish I take from your phone", "name"=>"anonymous"} (via streamed from gossip_channel)
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:36:44 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:36:44 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Hello", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Hello", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Hello", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Hello", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Hello", "name"=>"anonymous"} (via streamed from gossip_channel)
+Finished "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:37:20 +0300
+GossipChannel stopped streaming from gossip_channel
+GossipChannel#send_message({"message"=>"are you stalking us???", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"are you stalking us???", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"are you stalking us???", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"are you stalking us???", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"We do not stalk, we have all knowledge. open this in your browser  197.248.111.1", "name"=>"killzone"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"We do not stalk, we have all knowledge. open this in your browser  197.248.111.1", :name=>"killzone"}
+GossipChannel transmitting {"message"=>"We do not stalk, we have all knowledge. open this in your browser  197.248.111.1", "name"=>"killzone"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"We do not stalk, we have all knowledge. open this in your browser  197.248.111.1", "name"=>"killzone"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"I bring back freedom of speech", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"I bring back freedom of speech", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"I bring back freedom of speech", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"I bring back freedom of speech", "name"=>"anonymous"} (via streamed from gossip_channel)
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:40:56 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:40:56 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Fuggdgfhg", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Fuggdgfhg", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Fuggdgfhg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fuggdgfhg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fuggdgfhg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Ydfhxhxhxhch", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Ydfhxhxhxhch", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Ydfhxhxhxhch", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Ydfhxhxhxhch", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Ydfhxhxhxhch", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Sgfff", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Sgfff", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Sgfff", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Sgfff", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Sgfff", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"R", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"R", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"R", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"R", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"R", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Dd", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Dd", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"X", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"X", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Dd", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Dd", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"X", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"X", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"X", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"X", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"V", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"V", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"X", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"X", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Z", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Z", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Z", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Z", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Z", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"C", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"C", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"C", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"C", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"C", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Dddfhffffg", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Dddfhffffg", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Dddfhffffg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dddfhffffg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Dddfhffffg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"V", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"V", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"V", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Rd", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Rd", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Rd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Rd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Rd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"X", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"X", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"X", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Fd", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Fd", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Fd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fd", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Fgg", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Fgg", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Fgg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fgg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Fgg", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"S", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"S", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"E", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"E", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"E", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"E", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"E", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"Sgy", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Sgy", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"Sgy", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Sgy", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Sgy", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"H", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"H", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"H", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"S", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"S", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"S", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>nil, "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>nil, :name=>"anonymous"}
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>nil, "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"D", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"D", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"D", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"G", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"G", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"G", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"F", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"F", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"F", "name"=>"anonymous"} (via streamed from gossip_channel)
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:47:45 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:47:45 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/" for 127.0.0.1 at 2018-02-21 16:47:46 +0300
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 683ms (Views: 660.8ms)
+
+
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:47:59 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:47:59 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:48:09 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:48:09 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"COme", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"COme", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"COme", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"COme", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"COme", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel#send_message({"message"=>"cow", "name"=>"anonymous"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"cow", :name=>"anonymous"}
+GossipChannel transmitting {"message"=>"cow", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"cow", "name"=>"anonymous"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"cow", "name"=>"anonymous"} (via streamed from gossip_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:55:12 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 16:55:13 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 16:55:13 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Finished "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:57:45 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:57:53 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:57:53 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Finished "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:57:59 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/cable" for 197.248.111.202 at 2018-02-21 16:58:40 +0300
+Cannot render console from 197.248.111.202! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 197.248.111.202 at 2018-02-21 16:58:40 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+Started GET "/" for 41.90.131.86 at 2018-02-21 16:59:37 +0300
+Cannot render console from 41.90.131.86! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1951ms (Views: 1950.2ms)
+
+
+Started GET "/cable" for 41.90.131.86 at 2018-02-21 16:59:56 +0300
+Cannot render console from 41.90.131.86! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 41.90.131.86 at 2018-02-21 16:59:56 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
+GossipChannel#send_message({"message"=>"Unatuma number?", "name"=>"Andrew"})
+[ActionCable] Broadcasting to gossip_channel: {:message=>"Unatuma number?", :name=>"Andrew"}
+GossipChannel transmitting {"message"=>"Unatuma number?", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Unatuma number?", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Unatuma number?", "name"=>"Andrew"} (via streamed from gossip_channel)
+GossipChannel transmitting {"message"=>"Unatuma number?", "name"=>"Andrew"} (via streamed from gossip_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 17:01:17 +0300
+GossipChannel stopped streaming from gossip_channel
+Started GET "/" for 127.0.0.1 at 2018-02-21 17:01:18 +0300
+Processing by GossipController#main as HTML
+  Rendering gossip/main.html.erb within layouts/application
+  Rendered gossip/main.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 250ms (Views: 248.6ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-02-21 17:01:25 +0300
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-02-21 17:01:25 +0300
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+GossipChannel is transmitting the subscription confirmation
+GossipChannel is streaming from gossip_channel
